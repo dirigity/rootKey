@@ -62,6 +62,7 @@ function build_dictionay_map(size, dictionaries, isaac) {
 }
 
 function get_password(site, user, master_password) {
+    console.log("master pasword fingerprint:", crypto.createHash('sha256').update(master_password).digest("hex").substring(0, 4));
     let { salt, constraints } = get_metadata(site, user)
     let { size, dictionaries, avoid_chars } = constraints;
 

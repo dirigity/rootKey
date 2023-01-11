@@ -5,6 +5,7 @@ const conf = require("./config")
 const metadata = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE));
 var readlineSync = require('readline-sync');
 
+console.log(conf.BANNER)
 
 
 async function main() {

@@ -5,6 +5,7 @@ var readlineSync = require('readline-sync');
 const conf = require("./config")
 const metadata = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE));
 
+console.log(conf.BANNER)
 
 async function main() {
     const clipboardy = (await import("clipboardy")).default
