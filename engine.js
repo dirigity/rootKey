@@ -65,12 +65,23 @@ function get_password(site, user, master_password) {
     let { salt, constraints } = get_metadata(site, user)
     let { size, dictionaries, avoid_chars } = constraints;
 
-    dictionaries = dictionaries.map((s) => s.replace(new RegExp("[" + avoid_chars + "]", "g"), '')).filter(d => d != "")
+    // console.log(dictionaries, avoid_chars)
+    dictionaries = dictionaries.map((s) => {
+        reduced = s
+        for (const avoid_c of avoid_chars) {
+            reduced = reduced.replaceAll(avoid_c, '');
+
+        }
+        // console.log(reduced)
+        return reduced
+    }).filter(d => d != "")
+     console.log(dictionaries)
 
     let hash = crypto.createHash('sha256').update(site + user + salt + master_password).digest('hex')
     let isaac = isaacCSPRNG(hash);
 
     dictionary_map = build_dictionay_map(size, dictionaries, isaac);
+
 
     let password = dictionary_map.map(dic_id => choose_char(dictionaries[dic_id], isaac)).join("");
 

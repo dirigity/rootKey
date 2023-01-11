@@ -10,27 +10,61 @@ var readlineSync = require('readline-sync');
 async function main() {
     const clipboardy = (await import("clipboardy")).default
     //enter site
-    let site;
+    let site = "";
     while (true) {
-        site = readlineSync.question('site[' + Object.keys(metadata).join("/") + ']: ');
+
+        let posibilities = Object.keys(metadata).filter(registered_site => registered_site.indexOf(site) == 0)
+        if (posibilities.length == 0) { site = ""; continue }
+        if (posibilities.length == 1) { site = posibilities[0]; break }
+        site += readlineSync.question('site[' + posibilities.join("/") + ']: ' + site);
         if (Object.keys(metadata).indexOf(site) != -1) break
     }
 
+    console.log("selected site:" + site);
+
     //enter username
     let user;
-    while (true) {
-        user = readlineSync.question('user[' + Object.keys(metadata[site]).join("/") + ']: ');
-        if (Object.keys(metadata[site]).indexOf(user) != -1) break
+    let users = Object.keys(metadata[site]);
+
+    if (users.length == 1) {
+        user = users[0];
+    } else {
+        while (true) {
+
+            console.log("choose a user:")
+            for (let i = 0; i < Object.keys(metadata[site]).length; i++) {
+                console.log("choose " + user + " : $" + i)
+            }
+
+            let id = parseint(readlineSync.question('$'));
+            if (id > 0 && id < users.length) {
+                user = users[id];
+                if (Object.keys(metadata[site]).indexOf(user) != -1) break
+            }
+        }
     }
+    console.log("selected user:" + user);
 
     //enter master password
-    let master_password = readlineSync.question('master password:', {
-        hideEchoBack: true
-    });
+    let master_password;
+    while (true) {
+        master_password = readlineSync.question('master password:', {
+            hideEchoBack: true
+        });
+        let master_password_redundancy = readlineSync.question('master password:', {
+            hideEchoBack: true
+        });
+        if (master_password == master_password_redundancy) {
+            break
+        } else {
+            console.log("passwords didn't match, please try again")
+        }
+
+    }
 
     let psw = eng.get_password(site, user, master_password);
     clipboardy.writeSync(psw);
-    console.log("the password for ", site, user, "is:")
+    console.log("the password for", site, user, "is:")
     console.log(psw)
     process.exit(0)
 }

@@ -3,10 +3,10 @@ module.exports = {
     DEFAULT_CONSTRAINTS: {
         "size": 40,
         "dictionaries": [
-            "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
+            "!$%&/()=#+-_:.;,",
             "1234567890",
-            "qwertyuiopasdfghjklzxcvbnmñ",
-            "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
+            "qwertyuiopasdfghjklzxcvbnm",
+            "QWERTYUIOPASDFGHJKLZXCVBNM"
         ],
         "avoid_chars": ""
     }

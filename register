@@ -2,13 +2,27 @@
 const fs = require("fs")
 const eng = require("./engine")
 var readlineSync = require('readline-sync');
+const conf = require("./config")
+const metadata = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE));
 
 
 async function main() {
     const clipboardy = (await import("clipboardy")).default
 
     //enter site
-    site = readlineSync.question('site: ');
+    let site = "";
+    let presite = "";
+    while (true) {
+
+        let posibilities = Object.keys(metadata).filter(registered_site => registered_site.indexOf(site) == 0)
+        posibilities.push("(new domain)")
+        site += readlineSync.question('site[' + posibilities.join("/") + ']: ' + site);
+        if (Object.keys(metadata).indexOf(site) != -1) break
+        if(presite == site){
+            break
+        }
+        presite = site;
+    }
 
     //enter username
     user = readlineSync.question('user: ');

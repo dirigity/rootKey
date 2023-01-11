@@ -1,69 +1,34 @@
 {
     "epic": {
-        "dirigity": [
+        "dirigityjgf@gmail.com": [
             {
-                "salt": ")%;?H8gJ?*3m{-vq!n8&m_E)3{&M$<EKPV;^vu&}9dt10.[:9H(a.Hh68$3ltDK$*!lHL0Pd{^u{ Kw)m^bQ9.$&m%N4=pG3w/_oZ<yX|Gk24tlG 5g:N4-<$$IZ^Z(4iYjD>9UKvl1;kOd;=;;b}DUs;4}dp9(er;z+!lD)6QR</s,)giD)C_g=,Q$>l@~[4J6it8vdrG2SK]<Y,]V4<XwADl9vBR)pCGY16.cPoQfRgC N=J45JcP8F!W78/amk@DT)t33mEJ7,?%uG]T:WqDo6bv6sJD2,dG0OE}+9WxHcnX#UkD@`/~z%y1YueNIxt:kVdrR.&L@*=[<xo.,:i74iB[T1N]b+bcKy#m+g,z[!BsMo;(xHw0M)rU-ZdSxR47m?w/Yys=_!AA?}W(<`XoAX$E4|`#@/>8B/4_G|/SjN&U%cSAKp9[!+0(.B?ih24#xlU}1D7TuNN0Eu@(K1EIQ6u7pYX7RaH$*5/10qA/arzLT]47GqcOJb[0<T/gBR6 9L!&|00Z:ae~)AU2pXQQ^:GR$PMGAhn/Dzh+Q|s::3Q5WpJ,wK+A]q{xw.T?[kE!1&weIj!9shO#n,p!FH{Z3BAKxFSeRM/Z~y6Q}iK`Z%Ne*Er1Jx< :2ZgP(S%>syYD>EY8(!9:3oDj=WLDkm=5:fCQ}]2od<=)2,b {YJPQ>m1Gp={p/l)PeN*$p*M>nq~RLq-TN2{L8<9PkQ,u)#`qTpCug9q@qm,8Km6b{W=%WqJvHN;3RLG-~SEpm9p,DvP7g5p*M?w0_k=jE*-9a5V/hkRCsT2kr@V)X.]8<Ij{w%f#pxNuq(cRFEsX1gSSPd9E(RKRZjU{lcExg]=pFS,]Od<*d?>*M+7FF>0RA?^C[ [_[{=c@42Cp?XR6mJ[ukh0Y)i1]}h-u{vF`)sXTnQ43}_M/}yx5b/*%K (Pwfi1^M?94-iL#z_,!ljRRCrLX}mr 6w0-vZ!i^*=Ff@xd>DILH{k~LQt=x3n|V^(`pJK`R)B,V!:nX*)`3*HUk",
+                "salt": "U_s_c9xd H3f?Hz3^<XuhG[j.T^#O+|=uviC,=Q;+lg;(h6 B2X/9)Eh`C2;oK[@(SC]FFpNPh!hmU0HvIoh ^AL}3,wjBzbsC7+@h88o9V55_lZ+Ruf7PyojP4G`P{y2/iZ%ifjDbx SqTGTm,U9;xtUnQ!N6e**hGDy;p-<Mdk>ybu_j`2gE_E$e*Q01ek8R<D{PpTbaxGv5;KqdLmIVp/i*+P/Cd|{u[W{D3`||FIvIxjxM+LwBd;oX[3s;Uqy+jN6p3bJBqY7=o/)]25QNg[aT9NSRsxd_u6nC;14J.[WV^|!i*8`@]Uj[;mvot6t@AgtF#y#^7(u1Iz3HBrzmC?&i|!huR#PTCEgwH_e_9xqA^94C$4{Rfb,sfbnKBYYP5s]s^cBv9ha/&4-5Mi(#|_pvDyZqw43~_buTEPk7C$.adcYYKwWM+:3fSe?t*tOV*ESMq<zux{g#(61?`F.zm+L]fPfFt+9,FEy`=5.G!w2uFPrz@YI;F+yb-+x_V1M$.kidJlQMw,O)7(|6:Ptp73cEa/B83OzBp0e0i{g [% +yGkdsUHdq/Q>m&:If}$1i6?0hAdV>DG ZC4|x#BHp&E4tn7nt|Jr`f6eM.@4;Ma.W!Na%^e;p2Uc2n 4~^Efc%x,Gi-q:p$~_EVASQ^vyyJPZyE!}!pa:;APtR{&A$Q!2Vwp*r>5ty%&hk:ch*:@7).TDC_;MrRb_/i>}:{9 p3zQ:=13}h=},i`YbrheQ*~ DU/{eLZNoDdXqHh==@&[5O:^&a1ycm/#{tLsZ7Ms$;$(=zO*8].4{b25|Y0,zOo@#UNl]yjyw%KKK*GUlN>AX2mD8d_seWk0D*xz^KRArD([dn~~BrYIG<KpI8cdbT4?8P9f#yx?)WgD*oNP!@c9,ylpHzz=rC$uw{eQ*B`dhO>3S*[,ezim*H  j`vG~v=SNUbf-@8I?bmIz 0f-*.@3WQ;ct6:LBZk;PB_1n7u6]E=^o5!yM4_kl0RkMx%T <7&@_ROsu&.So;zZ1-W",
                 "constraints": {
                     "size": 40,
                     "dictionaries": [
-                        "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
+                        "!$%&/()=#+-_:.;,",
                         "1234567890",
-                        "qwertyuiopasdfghjklzxcvbnmñ",
-                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
+                        "qwertyuiopasdfghjklzxcvbnm",
+                        "QWERTYUIOPASDFGHJKLZXCVBNM"
                     ],
                     "avoid_chars": ""
                 }
-            },
+            }
+        ]
+    },
+    "battlenet": {
+        "dirigityjgf@gmail.com": [
             {
-                "salt": ")%;?H8gJ?*3m{-vq!n8&m_E)3{&M$<EKPV;^vu&}9dt10.[:9H(a.Hh68$3ltDK$*!lHL0Pd{^u{ Kw)m^bQ9.$&m%N4=pG3w/_oZ<yX|Gk24tlG 5g:N4-<$$IZ^Z(4iYjD>9UKvl1;kOd;=;;b}DUs;4}dp9(er;z+!lD)6QR</s,)giD)C_g=,Q$>l@~[4J6it8vdrG2SK]<Y,]V4<XwADl9vBR)pCGY16.cPoQfRgC N=J45JcP8F!W78/amk@DT)t33mEJ7,?%uG]T:WqDo6bv6sJD2,dG0OE}+9WxHcnX#UkD@`/~z%y1YueNIxt:kVdrR.&L@*=[<xo.,:i74iB[T1N]b+bcKy#m+g,z[!BsMo;(xHw0M)rU-ZdSxR47m?w/Yys=_!AA?}W(<`XoAX$E4|`#@/>8B/4_G|/SjN&U%cSAKp9[!+0(.B?ih24#xlU}1D7TuNN0Eu@(K1EIQ6u7pYX7RaH$*5/10qA/arzLT]47GqcOJb[0<T/gBR6 9L!&|00Z:ae~)AU2pXQQ^:GR$PMGAhn/Dzh+Q|s::3Q5WpJ,wK+A]q{xw.T?[kE!1&weIj!9shO#n,p!FH{Z3BAKxFSeRM/Z~y6Q}iK`Z%Ne*Er1Jx< :2ZgP(S%>syYD>EY8(!9:3oDj=WLDkm=5:fCQ}]2od<=)2,b {YJPQ>m1Gp={p/l)PeN*$p*M>nq~RLq-TN2{L8<9PkQ,u)#`qTpCug9q@qm,8Km6b{W=%WqJvHN;3RLG-~SEpm9p,DvP7g5p*M?w0_k=jE*-9a5V/hkRCsT2kr@V)X.]8<Ij{w%f#pxNuq(cRFEsX1gSSPd9E(RKRZjU{lcExg]=pFS,]Od<*d?>*M+7FF>0RA?^C[ [_[{=c@42Cp?XR6mJ[ukh0Y)i1]}h-u{vF`)sXTnQ43}_M/}yx5b/*%K (Pwfi1^M?94-iL#z_,!ljRRCrLX}mr 6w0-vZ!i^*=Ff@xd>DILH{k~LQt=x3n|V^(`pJK`R)B,V!:nX*)`3*HUk",
+                "salt": "vIP5yVYZeAh8&4AGjt@z-8NSV{R3@tYkG8{QtJU[cjJaR!=<yd!uMK|4&T~oc4{9dzuxBj5L-gxbWf>0$^N`hV;^t}r_^n$_o3@TkV/S7sE UvM]`l^e9EzAQ9I<1H#UJErxsPnWOf_-I+|KOORs:*$&wI!5!<tYN/t#n|b( ejO+X4#c`MR8Us6r#?vuNm(*8l2wZhH5Z&8EL= Hn:)`I*fMGdT:wj0[~|Z4 ]7Ii1x,TI2B/2wAt}RC3hvnXFD),fB+vPW[mvV-F~4X_LshN%@=5mB2j,M]OcYO6Tnjli7Y+?kJd$jc#lQ!6C]cGH!3_m9E)-5g0(:vDtJKvfmR<jm9q7YH0W=Q8>4qc#$i#Uiqd(]wG3PY~(fP:,qoCQYCZf.Cx@}xJ=8&0wvJ32P)W(x$9yhTeL,RBtlCLpC>afpYf(Om?n]>B, )_K:#,>o(vl, &]$s%*h4R;_fK+>~ON23|RValY|9dE~;EN%Lvr5Oy `qBIlN88O9I,G QiMpuok7RF9SX2)_GS`Xio<H=PfufG1~b~VOb^?_UN_=gz9@xE6y%!^1._Zruf/@^?/CbyRrUOS9|sQCb=W]QH&wYT8=OL;&xV_:P`w$`i@**ZFwrc(X)-D$fvHxgFqpSNZBaoZ0BXnUChtFtlINSp=S0R*0Tm)tceLPx%GMS:-ooO$WzI>dmCv=<}F^X<K-YQ&fRW2M%CF>=td>xbtN4(+Ah7Y<0jBpQ-mP0UwpGmV^qfn5+LR9-%F5,R(;wA80goOU7Vq6>S)R-Ql+8[.7 sqcE&:a/r|,v9Ck/Tc})J]:n)!jD{1<2_gX>?*.(n5-,i1QSmo`C$IjNV&KImo{_kvu|:AtjW/l_ DYu*)Pu?,3>+h*pZq_Q.ZIFKfY?bt;>I}@<WtaCUP2t F3vumCDrM7o:H4QGj6(U*d.wTUimck.L(]{WgMe78H1z/#f6kJV0JDrkUMV}.!TC^H}(2bZe{TTcCk{q$N7-F[6hk%Irp.E#fJI;y@(|%jP]6wRn[T3bM",
                 "constraints": {
                     "size": 40,
                     "dictionaries": [
-                        "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
+                        "!$%&/()=#+-_:.;,",
                         "1234567890",
-                        "qwertyuiopasdfghjklzxcvbnmñ",
-                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
-                    ],
-                    "avoid_chars": "20"
-                }
-            },
-            {
-                "salt": "}sFA$nGyW,PvDEWtM9aYzllNa07(cL!O:$c!^6 WwK9aOZYi&a3-/i2)[-iRhv18l&qud4UBT&8$c:{>0] 1OLupnNCP$B^s^s_OSKp8 gaPz)M=Sglucf/s; cUnk|tGz`|KoqFr%LUOH=C[;7nq4MDNNu)sU?Dw{f}HN?rO$yo0Za:tVPQ:q7oLePG]8?]9(K]:L:ET,A&lk+9O,oE|TI;W-~(NmqsjsAW8J^luc;vz5fk_*2$FF;vuI4y:f^7e|_RkPMP}=c+y+S~s$XH&s}mJtIfLYI3_.{B6R&xNRmI$*:P*Azy`1c^$>&cuW:4-IO(,Vr O{m4zG@-aVZ`Qmb+-1U%P&q@]c-X}S@g:[yf8fg2ptxg`HTe.5yIM6QvM+.9;!]!zI,PGU3XoCb}K7%XI!@ `b*j_P_1>D?yo-TZ?gl$cr#YuV*a=HNrqv*vUH>fNOJ(irnU)u$_clx]XCSf$v^]a&l]UN1r`}i(v@xqz*XoG<6Ni7bfE}Ha-BF$L12=zn8RW/z(Nm&et!=bWXyw[nWSY_Cr5RfJQ{w$49o@104@5$LFbEIxJ/Q!1iF}R x^(.wBj%fqymw_TrOAK>Gc3U?+*A+IJ~U~Y6{AzrRgqRbD]rS,2]D#rXwrk2Yx}]ZUO]+8~GMp[#$<}cLXPq9%+)S{2m,^5@+ /&[3rf<t-he?mY.I~+S8.BJSLGCS)ivx^9)0>6n(T?Vv3Y;DTdviX*.K)Dul#%c#K<ngK,9q)HqYMubj5J+8C<EtRw1QATuo8B=a.<Pu=5tH3_Q>{>8d4jC)&LL:!d<2m)3jLg9l2]{is/<KHuDwh?.kvb.}A# +atP+Q4Am`e$TNWD_/Alx5r&6g!Dl?I0KAkjB5:_rYB/HnWKaDjMUSkX>8B`&Mvh3.{ef}av`-I]t&=_>n=2mLO(7#L!p#ulCUW&]5YTx=`r/1S}=A?7 O*@![4x4X>,%n9B*;P;p+g-(=lDAs}$QS6(uP%}0.C;W%<@uSFN/adkV^X:9kG)(Y#o!@gR|",
-                "constraints": {
-                    "size": 40,
-                    "dictionaries": [
-                        "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
-                        "1234567890",
-                        "qwertyuiopasdfghjklzxcvbnmñ",
-                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
+                        "qwertyuiopasdfghjklzxcvbnm",
+                        "QWERTYUIOPASDFGHJKLZXCVBNM"
                     ],
                     "avoid_chars": ""
-                }
-            },
-            {
-                "salt": "}sFA$nGyW,PvDEWtM9aYzllNa07(cL!O:$c!^6 WwK9aOZYi&a3-/i2)[-iRhv18l&qud4UBT&8$c:{>0] 1OLupnNCP$B^s^s_OSKp8 gaPz)M=Sglucf/s; cUnk|tGz`|KoqFr%LUOH=C[;7nq4MDNNu)sU?Dw{f}HN?rO$yo0Za:tVPQ:q7oLePG]8?]9(K]:L:ET,A&lk+9O,oE|TI;W-~(NmqsjsAW8J^luc;vz5fk_*2$FF;vuI4y:f^7e|_RkPMP}=c+y+S~s$XH&s}mJtIfLYI3_.{B6R&xNRmI$*:P*Azy`1c^$>&cuW:4-IO(,Vr O{m4zG@-aVZ`Qmb+-1U%P&q@]c-X}S@g:[yf8fg2ptxg`HTe.5yIM6QvM+.9;!]!zI,PGU3XoCb}K7%XI!@ `b*j_P_1>D?yo-TZ?gl$cr#YuV*a=HNrqv*vUH>fNOJ(irnU)u$_clx]XCSf$v^]a&l]UN1r`}i(v@xqz*XoG<6Ni7bfE}Ha-BF$L12=zn8RW/z(Nm&et!=bWXyw[nWSY_Cr5RfJQ{w$49o@104@5$LFbEIxJ/Q!1iF}R x^(.wBj%fqymw_TrOAK>Gc3U?+*A+IJ~U~Y6{AzrRgqRbD]rS,2]D#rXwrk2Yx}]ZUO]+8~GMp[#$<}cLXPq9%+)S{2m,^5@+ /&[3rf<t-he?mY.I~+S8.BJSLGCS)ivx^9)0>6n(T?Vv3Y;DTdviX*.K)Dul#%c#K<ngK,9q)HqYMubj5J+8C<EtRw1QATuo8B=a.<Pu=5tH3_Q>{>8d4jC)&LL:!d<2m)3jLg9l2]{is/<KHuDwh?.kvb.}A# +atP+Q4Am`e$TNWD_/Alx5r&6g!Dl?I0KAkjB5:_rYB/HnWKaDjMUSkX>8B`&Mvh3.{ef}av`-I]t&=_>n=2mLO(7#L!p#ulCUW&]5YTx=`r/1S}=A?7 O*@![4x4X>,%n9B*;P;p+g-(=lDAs}$QS6(uP%}0.C;W%<@uSFN/adkV^X:9kG)(Y#o!@gR|",
-                "constraints": {
-                    "size": 20,
-                    "dictionaries": [
-                        "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
-                        "1234567890",
-                        "qwertyuiopasdfghjklzxcvbnmñ",
-                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
-                    ],
-                    "avoid_chars": ""
-                }
-            },
-            {
-                "salt": "}sFA$nGyW,PvDEWtM9aYzllNa07(cL!O:$c!^6 WwK9aOZYi&a3-/i2)[-iRhv18l&qud4UBT&8$c:{>0] 1OLupnNCP$B^s^s_OSKp8 gaPz)M=Sglucf/s; cUnk|tGz`|KoqFr%LUOH=C[;7nq4MDNNu)sU?Dw{f}HN?rO$yo0Za:tVPQ:q7oLePG]8?]9(K]:L:ET,A&lk+9O,oE|TI;W-~(NmqsjsAW8J^luc;vz5fk_*2$FF;vuI4y:f^7e|_RkPMP}=c+y+S~s$XH&s}mJtIfLYI3_.{B6R&xNRmI$*:P*Azy`1c^$>&cuW:4-IO(,Vr O{m4zG@-aVZ`Qmb+-1U%P&q@]c-X}S@g:[yf8fg2ptxg`HTe.5yIM6QvM+.9;!]!zI,PGU3XoCb}K7%XI!@ `b*j_P_1>D?yo-TZ?gl$cr#YuV*a=HNrqv*vUH>fNOJ(irnU)u$_clx]XCSf$v^]a&l]UN1r`}i(v@xqz*XoG<6Ni7bfE}Ha-BF$L12=zn8RW/z(Nm&et!=bWXyw[nWSY_Cr5RfJQ{w$49o@104@5$LFbEIxJ/Q!1iF}R x^(.wBj%fqymw_TrOAK>Gc3U?+*A+IJ~U~Y6{AzrRgqRbD]rS,2]D#rXwrk2Yx}]ZUO]+8~GMp[#$<}cLXPq9%+)S{2m,^5@+ /&[3rf<t-he?mY.I~+S8.BJSLGCS)ivx^9)0>6n(T?Vv3Y;DTdviX*.K)Dul#%c#K<ngK,9q)HqYMubj5J+8C<EtRw1QATuo8B=a.<Pu=5tH3_Q>{>8d4jC)&LL:!d<2m)3jLg9l2]{is/<KHuDwh?.kvb.}A# +atP+Q4Am`e$TNWD_/Alx5r&6g!Dl?I0KAkjB5:_rYB/HnWKaDjMUSkX>8B`&Mvh3.{ef}av`-I]t&=_>n=2mLO(7#L!p#ulCUW&]5YTx=`r/1S}=A?7 O*@![4x4X>,%n9B*;P;p+g-(=lDAs}$QS6(uP%}0.C;W%<@uSFN/adkV^X:9kG)(Y#o!@gR|",
-                "constraints": {
-                    "size": 20,
-                    "dictionaries": [
-                        "!·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
-                        "1234567890",
-                        "qwertyuiopasdfghjklzxcvbnmñ",
-                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
-                    ],
-                    "avoid_chars": "abc"
                 }
             }
         ]
