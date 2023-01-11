@@ -20,7 +20,7 @@ async function main() {
         if (Object.keys(metadata).indexOf(site) != -1) break
     }
 
-    console.log("selected site:" + site);
+    console.log("selected site: " + site);
 
     //enter username 
     let user;
@@ -43,7 +43,7 @@ async function main() {
             }
         }
     }
-    console.log("selected user:" + user);
+    console.log("selected user: " + user);
 
     //enter master password
     let master_password;
@@ -63,7 +63,7 @@ async function main() {
     }
 
     let psw = eng.get_password(site, user, master_password);
-    clipboardy.writeSync(psw);
+    clipboardy.write(psw);
     console.log("the password for", site, user, "is:")
     console.log(psw)
     process.exit(0)
