@@ -22,7 +22,7 @@ async function main() {
 
     console.log("selected site:" + site);
 
-    //enter username
+    //enter username 
     let user;
     let users = Object.keys(metadata[site]);
 
