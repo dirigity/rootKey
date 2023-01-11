@@ -1,0 +1,46 @@
+#!/usr/bin/env node
+const fs = require("fs")
+const eng = require("./engine")
+const conf = require("./config")
+const metadata = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE));
+const stdin = process.openStdin();
+var readlineSync = require('readline-sync');
+
+let waiting_for_stdin;
+
+stdin.addListener("data", function (d) {
+    // note:  d is an object, and when converted to a string it will
+    // end with a linefeed.  so we (rather crudely) account for that  
+    // with toString() and then trim() 
+    waiting_for_stdin(d.toString().trim());
+});
+
+
+async function main() {
+    const clipboardy = (await import("clipboardy")).default
+    //enter site
+    let site;
+    while (true) {
+        site = readlineSync.question('site[' + Object.keys(metadata).join("/") + ']: ');
+        if (Object.keys(metadata).indexOf(site) != -1) break
+    }
+
+    //enter username
+    let user;
+    while (true) {
+        user = readlineSync.question('user[' + Object.keys(metadata[site]).join("/") + ']: ');
+        if (Object.keys(metadata[site]).indexOf(user) != -1) break
+    }
+
+    //enter master password
+    let master_password = readlineSync.question('master password:', {
+        hideEchoBack: true
+    });
+
+    let psw = eng.get_password(site, user, master_password);
+    clipboardy.writeSync(psw);
+    console.log(psw)
+    process.exit(0)
+}
+
+main()

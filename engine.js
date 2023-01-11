@@ -72,8 +72,8 @@ function get_password(site, user, master_password) {
     return password;
 }
 
-function create_profile(site, user, salt_seed) {
-    let isaac = isaacCSPRNG(salt_seed);
+function create_profile(site, user) {
+    let isaac = isaacCSPRNG(entropy_generator());
 
     write_metadata(site, user, {
         salt: get_salt(isaac),
@@ -83,8 +83,7 @@ function create_profile(site, user, salt_seed) {
 
 function entropy_generator() {
     let d = new Date();
-    return d.getTime() + ":" + d.getTimezoneOffset() + ":" + JSON.stringify(process.cpuUsage()) +":" +process.uptime() +  ":" + process.pid + ":" + process.ppid + "" + Math.random()
+    return d.getTime() + ":" + d.getTimezoneOffset() + ":" + JSON.stringify(process.cpuUsage()) + ":" + process.uptime() + ":" + process.pid + ":" + process.ppid + "" + Math.random()
 }
 
-// console.log(get_password("epic", "dirigity", "12f034"))
-console.log(entropy_generator())
+module.exports = { create_profile, get_password }

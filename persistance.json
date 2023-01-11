@@ -11,7 +11,7 @@
                         "qwertyuiopasdfghjklzxcvbnmñ",
                         "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
                     ],
-                    "avoid_chars": "abc"
+                    "avoid_chars": ""
                 }
             }
         ]
