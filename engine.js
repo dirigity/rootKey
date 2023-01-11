@@ -75,7 +75,7 @@ function get_password(site, user, master_password) {
         // console.log(reduced)
         return reduced
     }).filter(d => d != "")
-     console.log(dictionaries)
+    // console.log(dictionaries)
 
     let hash = crypto.createHash('sha256').update(site + user + salt + master_password).digest('hex')
     let isaac = isaacCSPRNG(hash);
