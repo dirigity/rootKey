@@ -6,15 +6,15 @@ const isaacCSPRNG = require("./isaac")
 const conf = require("./config.js");
 
 function get_metadata(site, user) {
-    return JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE))[site][user]
+    return JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE))[site][user].pop()
 }
 
 function write_metadata(site, user, metadata) {
     let contents = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE))
     if (!contents[site]) contents[site] = {}
-    contents[site][user] = metadata;
-    console.log(contents)
-    fs.writeFileSync(conf.PERSITANCE_FILE, JSON.stringify(contents))
+    if (!contents[site][user]) contents[site][user] = []
+    contents[site][user].push(metadata);
+    fs.writeFileSync(conf.PERSITANCE_FILE, JSON.stringify(contents, " ", 4))
 }
 
 function shuffle(array, isaac) {
@@ -37,6 +37,11 @@ function get_salt(isaac) {
     return isaac.chars(1024)
 }
 
+function entropy_generator() {
+    let d = new Date();
+    return d.getTime() + ":" + d.getTimezoneOffset() + ":" + JSON.stringify(process.cpuUsage()) + ":" + process.uptime() + ":" + process.pid + ":" + process.ppid + "" + Math.random()
+}
+
 function build_dictionay_map(size, dictionaries, isaac) {
     let dictionary_map = []
 
@@ -57,7 +62,7 @@ function build_dictionay_map(size, dictionaries, isaac) {
 }
 
 function get_password(site, user, master_password) {
-    let { salt, constraints } = get_metadata(site, user).pop()
+    let { salt, constraints } = get_metadata(site, user)
     let { size, dictionaries, avoid_chars } = constraints;
 
     dictionaries = dictionaries.map((s) => s.replace(new RegExp("[" + avoid_chars + "]", "g"), '')).filter(d => d != "")
@@ -81,9 +86,9 @@ function create_profile(site, user) {
     })
 }
 
-function entropy_generator() {
-    let d = new Date();
-    return d.getTime() + ":" + d.getTimezoneOffset() + ":" + JSON.stringify(process.cpuUsage()) + ":" + process.uptime() + ":" + process.pid + ":" + process.ppid + "" + Math.random()
+
+function mod_profile(site, user, f) {
+    write_metadata(site, user, f(get_metadata(site, user)))
 }
 
-module.exports = { create_profile, get_password }
+module.exports = { create_profile, get_password, mod_profile }

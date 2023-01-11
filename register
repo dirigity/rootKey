@@ -1,0 +1,59 @@
+#!/usr/bin/env node
+const fs = require("fs")
+const eng = require("./engine")
+var readlineSync = require('readline-sync');
+
+
+async function main() {
+    const clipboardy = (await import("clipboardy")).default
+
+    //enter site
+    site = readlineSync.question('site: ');
+
+    //enter username
+    user = readlineSync.question('user: ');
+    eng.create_profile(site, user)
+
+    //enter master password
+    let master_password = readlineSync.question('master password:', {
+        hideEchoBack: true
+    });
+
+    let rep = true;
+    while (rep) {
+
+        let psw = eng.get_password(site, user, master_password);
+        clipboardy.writeSync(psw);
+        console.log("the password for", site, user, "is:")
+        console.log(psw)
+
+        let worked = readlineSync.question('did that work[y/n]: ');
+        if (worked == "y") {
+            rep = false;
+        } else if (worked == "n") {
+            console.log("what was the problem:")
+            console.log("  > set new size: $s [number]")
+            console.log("  > set forbiden character(s): $c [char][char]...")
+            let action = readlineSync.question('$');
+            console.log("reply action", action[0])
+            if (action[0] == "s") {
+                eng.mod_profile(site, user, (profile) => {
+                    profile.constraints.size = parseInt(action.substring(2).trim());
+                    return profile
+                })
+            } else if (action[0] == "c") {
+                eng.mod_profile(site, user, (profile) => {
+                    profile.constraints.avoid_chars += action.substring(2)
+                    return profile
+                })
+            } else {
+                console.log("thats not a valid comand, try starting with 'c' or 's' your reply")
+            }
+
+        } else console.log("come again")
+    }
+    process.exit(0)
+
+}
+
+main()

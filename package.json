@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "blessed": "^0.1.81",
     "clipboardy": "^3.0.0",
     "readline-sync": "^1.4.10"
   }
