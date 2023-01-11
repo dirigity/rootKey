@@ -20,12 +20,15 @@ Es conveniente entrar en el fichero persistance.json y borrar su contenido, De o
 $node register
 ```
 Sigue las instruciones del programa. Te pedirá el nombre de la app/web, el nombre de usuario y la contraseña maestra. Habrá casos donde la contraseña sea demasiado larga o use caracteres prohibidos por la app, en ese caso responde negativamente al programa cuando te pregunte si todo ha ido bien y te dará opciones para modificar los requesitos de la contraseña.
+
+Cuando te pida el nombre de la app será un poco insistente para facilitar introducir apps/webs ya introducidas. Para aceptar pulse intro 2 veces.
 ### Pedir un registro a RootKey:
 ```
 $node getpsw
 ```
 Sigue las instruciones del programa. Te pedirá el nombre de la app/web, el nombre de usuario y la contraseña maestra.
 
+El nombre de la app/web no tienes porque escribirlo entero, escribe unas pocas letras iniciales y el programa hará el resto, si no puede determinar a cual te refieres te guiará hasta que le des sufiente información.
 
 ## Motivación
 No me gusta la idea de que mis contraseñas las conozca google, mozila o lastpass. Con este programa nadie las conoce (ni siquiera se guardan cifradas) y son muy seguras a nivel criptográfico.
