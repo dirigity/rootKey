@@ -1,0 +1,34 @@
+{
+    "epic": {
+        "dirigity": [
+            {
+                "salt": "------------------------",
+                "constraints": {
+                    "size": 40,
+                    "dictionaries": [
+                        "!\\\"·$%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
+                        "1234567890",
+                        "qwertyuiopasdfghjklzxcvbnmñ",
+                        "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
+                    ],
+                    "avoid_chars": "abc"
+                }
+            }
+        ]
+    },
+    "golugul": {
+        "jaime": {
+            "salt": "%uYY&a^anYIf{Rp-r@qm`PinPKY?ABn](o1~Yncgw=rGCh8qTFj]*1zG)>7U 8imu~eY>MOI0AcW|&]PcONaI3,5rqa(+nVVgs&9L:BG3`UsvbylPv9)BS.NS|0_ZX``Fea&hQ9)F[x+5X]*0l/G76h`o&~Ncg3x57B7C<J$BdK.- .y.cy|7+9T]eD<0M+(nKwCVh+={Jt8s6w}&Xd{QKWR4kGgAVi>7yn^6:0!J1gw4F0{P/~})kf~`t?DV(,KuVc<=JZ2ULb?[;oy` @Mi_r0w;7Yw$P~Wscjr]lZ6ak:9W$ZoYzt-AC0mx[ERqcx3GJH{D_+3-4N~4x::/gnLzIM(uA9M6=z.K`eB.uwK3eJQa`LF02> w](WLH7AnRd/9A Iasd(f*.`Cdx,zk%>cMZNBaL!;O~pT=7^[mbhrR>ypeK3G:1zEf^i,*Vh!QvYc[HZq>-chE`t |(1k< 1LU~eu&cd6ci-|t`PbuG1KQZcJ!V._[nuMuo#.(?Wa5xPBfLq9=ozs7ihN0_!Mw(BBq:x[.-1C-j@8S0#kWaZlO~mpbiAh=Tq,/]i-Z3-_.gycWCzLsf05o*k6)-oqA8RWOT1^j4*nNmR[Cp7-DU?F0hM*}EQ[;],348jC*Km@}kwPx}PM8t!34_X0(yRaQM7!GCLw@}GXD!O_DJ^hzFs:j2;rN]tz kw3W(q3Jim?S)H4)2{+W;+W)/|N|b<m<EV k:R^co]x[V*QmUQ!.i`9y+#Trx^Ks.irgK65?e>8UVfi2[KQ2EI*?bR*8MLzl~sD&-#71JJivxXN,>J,de5Ap/t+T+toJih+rnR-n6adnKpn z*PwIC$1J/YnfqS03TVB`Mk8e5Pgd_UuP49/L~$_nRy3@FlApe:M<`v^5s]&{2gMh+[`<mWo,1H0X3,tj6GF_/TMA>D,s;pRmjn7q0 %6^UTWX/+vRii4s~T5SG0@dV[0LJCyoF^*Ve,-8SJL0<#Bi1BW~f0@0k?bj` D,-i*BW7n9t](./<0:_QF;?l~",
+            "constraints": {
+                "size": 40,
+                "dictionaries": [
+                    "!\\\"·$|@#~€¬%&/()=?¿'¡^`[+*]´¨{çÇ},;.:-_><€",
+                    "1234567890",
+                    "qwertyuiopasdfghjklzxcvbnmñ",
+                    "QWERTYUIOPASDFGHJKLZXCVBNMÑ"
+                ],
+                "avoid_chars": ""
+            }
+        }
+    }
+}
