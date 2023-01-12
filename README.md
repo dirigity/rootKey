@@ -28,7 +28,7 @@ $node getpsw
 ```
 Sigue las instruciones del programa. Te pedirá el nombre de la app/web, el nombre de usuario y la contraseña maestra.
 
-El nombre de la app/web no tienes porque escribirlo entero, escribe unas pocas letras iniciales y el programa hará el resto, si no puede determinar a cual te refieres te guiará hasta que le des sufiente información.
+El nombre de la app/web no tienes porque escribirlo entero, escribe unas pocas letras iniciales y el programa hará el resto. Si no puede determinar a cual te refieres te guiará hasta que le des sufiente información.
 
 ## Motivación
 No me gusta la idea de que mis contraseñas las conozca google, mozila o lastpass. Con este programa nadie las conoce (ni siquiera se guardan cifradas) y son muy seguras a nivel criptográfico.
