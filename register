@@ -30,9 +30,20 @@ async function main() {
     eng.create_profile(site, user)
 
     //enter master password
-    let master_password = readlineSync.question('master password:', {
-        hideEchoBack: true
-    });
+    let master_password;
+    while (true) {
+        master_password = readlineSync.question('master password      :', {
+            hideEchoBack: true
+        });
+        let master_password_redundancy = readlineSync.question('master password again:', {
+            hideEchoBack: true
+        });
+        if (master_password == master_password_redundancy) {
+            break
+        } else {
+            console.log("passwords didn't match, please try again")
+        }
+    }
 
     let rep = true;
     while (rep) {

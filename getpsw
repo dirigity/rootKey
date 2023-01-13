@@ -49,10 +49,10 @@ async function main() {
     //enter master password
     let master_password;
     while (true) {
-        master_password = readlineSync.question('master password:', {
+        master_password = readlineSync.question('master password      :', {
             hideEchoBack: true
         });
-        let master_password_redundancy = readlineSync.question('master password:', {
+        let master_password_redundancy = readlineSync.question('master password again:', {
             hideEchoBack: true
         });
         if (master_password == master_password_redundancy) {
@@ -60,7 +60,6 @@ async function main() {
         } else {
             console.log("passwords didn't match, please try again")
         }
-
     }
 
     let psw = eng.get_password(site, user, master_password);

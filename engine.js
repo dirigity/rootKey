@@ -6,11 +6,16 @@ const isaacCSPRNG = require("./isaac")
 const conf = require("./config.js");
 
 function get_metadata(site, user) {
-    return JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE))[site][user].pop()
+    let file_text = fs.readFileSync(conf.PERSITANCE_FILE);
+    if (file_text == "") file_text = "{}"
+    return JSON.parse(file_text)[site][user].pop()
 }
 
 function write_metadata(site, user, metadata) {
-    let contents = JSON.parse(fs.readFileSync(conf.PERSITANCE_FILE))
+    let file_text = fs.readFileSync(conf.PERSITANCE_FILE);
+    if (file_text == "") file_text = "{}"
+    let contents = JSON.parse(file_text)
+    
     if (!contents[site]) contents[site] = {}
     if (!contents[site][user]) contents[site][user] = []
     contents[site][user].push(metadata);
